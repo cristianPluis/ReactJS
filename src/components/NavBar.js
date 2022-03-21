@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import '../NavBar.css'
 import logo from '../imagenes/logo.png'
-import CartWidget from "./CartWidget";
+import Cart from "./CartWidget";
 
 
 function NavBar() {
@@ -19,7 +19,7 @@ function NavBar() {
       </nav>
       <div className="cart-container">
             <a href="#">
-                <CartWidget className="carro" />
+                <Cart className="carro" />
             </a>
       </div>
     </div>
